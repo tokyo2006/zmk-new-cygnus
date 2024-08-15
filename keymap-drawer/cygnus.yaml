@@ -1,6 +1,6 @@
 layers:
   Qwery:
-  - $$mdi:keyboard-esc$$
+  - {t: '`', h: '~', s: '~'}
   - Q
   - W
   - E
@@ -274,3 +274,5 @@ combos:
   k: {t: \, s: '|'}
 - p: [14, 15]
   k: '|'
+- p: [0, 1]
+  k: $$mdi:keyboard-esc$$
