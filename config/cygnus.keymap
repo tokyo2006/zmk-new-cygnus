@@ -146,6 +146,8 @@
 &trans  &trans        &trans        &kp END           &kp PAGE_DOWN   &kp K_MUTE         &trans                &trans    &trans          &trans           &trans  &trans
                                     &trans            &trans          &trans             &trans                &trans    &trans
             >;
+
+            label = "Navi";
         };
 
         Symbol {
