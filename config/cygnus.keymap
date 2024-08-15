@@ -188,6 +188,8 @@
 &trans                  &bt BT_PRV  &out OUT_TOG  &trans    &trans     &kp C_VOLUME_DOWN  &kp C_BRI_DN  &trans        &trans        &trans        &trans        &trans
                                                   &trans    &trans     &trans             &trans        &trans        &trans
             >;
+
+            label = "Flash";
         };
     };
 
