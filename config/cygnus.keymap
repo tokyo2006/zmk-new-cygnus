@@ -84,6 +84,16 @@
             bindings = <&kp ESC>;
             key-positions = <0 1>;
         };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <13 14>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <21 22>;
+        };
     };
 
     behaviors {
