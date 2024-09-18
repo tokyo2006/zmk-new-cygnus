@@ -2,8 +2,6 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/petejohanson
-    - name: inorichi
-      url-base: https://github.com/inorichi
     - name: kumamuk-git
       url-base: https://github.com/kumamuk-git
   projects:
