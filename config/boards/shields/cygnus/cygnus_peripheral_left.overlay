@@ -15,3 +15,9 @@
         , <&pro_micro 5 GPIO_ACTIVE_HIGH>
         ;
 };
+
+/ {
+        trackball: dummy_trackball {
+            compatible = "zmk,virtual-input";
+        };
+};
