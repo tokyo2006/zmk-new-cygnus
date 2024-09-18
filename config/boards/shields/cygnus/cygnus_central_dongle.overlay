@@ -9,7 +9,6 @@
     chosen {
         zmk,kscan = &mock_kscan;
         zmk,matrix-transform = &default_transform;
-        zephyr,display = &oled;
     };
 
     default_transform: keymap_transform_0 {
@@ -66,7 +65,7 @@
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         automouse-layer = <4>;
-        scroll-layers = <5>;
+        scroll-layers = <1>;
     };
 };
 
