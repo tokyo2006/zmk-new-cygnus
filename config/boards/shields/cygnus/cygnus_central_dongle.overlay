@@ -124,7 +124,7 @@
            /* align to CCW 180 degree */
            rotate-deg = <180>;
            /* scale-multiplier = <1>; */
-           scale-divisor = <8		>; 
+           scale-divisor = <8>; 
            /* NOTE 1: This settings do not compitable with y-invert and x-invert */
            /* NOTE 2: Floating point computation requires alot of ram. */
            /*         This feature will cuase stackove flow with CONFIG_ZMK_USB_LOGGING=y *   
