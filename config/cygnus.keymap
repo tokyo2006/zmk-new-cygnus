@@ -11,7 +11,6 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
 
-
 &mt {
     tapping-term-ms = <200>;
     flavor = "tap-preferred";
@@ -183,10 +182,10 @@
 
         Mouse {
             bindings = <
-&trans  &trans  &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &trans     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans          &trans          &trans           &trans     &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans          &mkp LCLK        &mkp RCLK  &trans  &trans  &trans
+&trans  &trans  &msc SCRL_UP  &mmv MOVE_UP  &msc SCRL_DOWN  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &mkp MCLK     &mkp LCLK     &mkp RCLK       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans        &trans          &trans  &trans  &trans  &trans
             >;
 
             label = "Mouse";
