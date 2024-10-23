@@ -165,6 +165,7 @@
 &trans  &kp ESCAPE       &kp CAPSLOCK  &kp HOME  &kp END     &kp UNDER    &kp MINUS  &kp RIGHT_SHIFT  &kp PAGE_UP                     &kp PAGE_DOWN         &kp INSERT             &trans
 &trans  &kp BACKSPACE    &trans        &trans    &trans      &kp TILDE    &kp GRAVE  &as PLUS EQUAL   &as DOUBLE_QUOTES SINGLE_QUOTE  &as PIPE BACKSLASH    &kp DEL                &trans
                                        &trans    &trans      &trans       &trans     &trans           &trans
+                                       &trans    &trans
             >;
 
             label = "Symbol";
@@ -176,6 +177,7 @@
 &trans  &kp LG(A)     &kp LG(S)     &kp LG(D)     &kp LG(F)     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &trans
 &trans  &kp LG(Z)     &kp LG(X)     &kp LG(C)     &kp LG(V)     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp F1          &kp F2            &kp F3        &kp F4        &trans
                                     &trans        &trans        &trans            &trans             &trans          &trans
+                                    &trans    &trans
             >;
 
             label = "Modify";
@@ -187,6 +189,7 @@
 &trans  &trans  &mkp MCLK     &mkp LCLK     &mkp RCLK       &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
                               &trans        &trans          &trans  &trans  &trans  &trans
+                              &trans    &trans
             >;
 
             label = "Mouse";
@@ -198,6 +201,7 @@
 &trans                  &bt BT_NXT  &kp LEFT      &kp DOWN  &kp RIGHT  &kp C_VOLUME_UP    &kp C_BRI_UP  &bt BT_CLR    &trans        &trans        &trans        &trans
 &trans                  &bt BT_PRV  &out OUT_TOG  &trans    &trans     &kp C_VOLUME_DOWN  &kp C_BRI_DN  &trans        &trans        &trans        &trans        &trans
                                                   &trans    &trans     &trans             &trans        &trans        &trans
+                                                  &trans    &trans
             >;
 
             label = "Flash";
