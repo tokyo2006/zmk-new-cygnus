@@ -38,8 +38,8 @@
 
     kscan0: kscan_composite {
         compatible = "zmk,kscan-composite";
-        rows = <4>;
-        columns = <3>;
+        rows = <5>;
+        columns = <12>;
 
         // Include the matrix driver
         matrix {
