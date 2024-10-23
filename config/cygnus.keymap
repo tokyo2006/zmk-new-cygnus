@@ -153,6 +153,7 @@
 &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans  &trans        &trans        &kp END           &kp PAGE_DOWN   &kp K_MUTE         &trans                &trans    &trans          &trans           &trans  &trans
                                     &trans            &trans          &trans             &trans                &trans    &trans
+                                    &mkp LCLK         &mkp RCLK
             >;
 
             label = "Navi";
