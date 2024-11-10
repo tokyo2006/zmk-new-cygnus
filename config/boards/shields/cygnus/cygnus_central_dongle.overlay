@@ -28,7 +28,7 @@
 	;
     col-gpios
         = <&gpio1 10 GPIO_ACTIVE_HIGH>
-        , <&gpio1 14 10 GPIO_ACTIVE_HIGH>
+        , <&gpio1 14 GPIO_ACTIVE_HIGH>
         ;
 };
 
