@@ -8,6 +8,8 @@
 #include <dt-bindings/zmk/input_transform.h>
 #include "cygnus.dtsi"
 
+#define SCROLLER 1
+#define MOUSE 4
 
 &default_transform {
 	col-offset = <12>;
