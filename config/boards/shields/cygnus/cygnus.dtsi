@@ -1,10 +1,11 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "cygnus-layouts.dtsi"
 
 / {
 
 	chosen {
 		zmk,kscan = &kscan0;
-		zmk,matrix_transform = &default_transform;
+		zmk,physical-layout = &cygnus_layout;
 	};
 
 	default_transform: keymap_transform_0 {
@@ -19,7 +20,7 @@
 		>;
 	};
 
-	 kscan0: kscan {
+	kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
         diode-direction = "col2row";

@@ -21,9 +21,3 @@
        
         ;
 };
-
-/ {
-        trackball: dummy_trackball {
-            compatible = "zmk,virtual-input";
-        };
-};
