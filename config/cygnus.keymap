@@ -106,26 +106,31 @@
         bac {
             bindings = <&kp BACKSLASH>;
             key-positions = <5 6>;
+            timeout-ms = <50>;
         };
 
         pipe {
             bindings = <&kp PIPE>;
             key-positions = <19 20>;
+            timeout-ms = <50>;
         };
 
         esc {
             bindings = <&kp ESC>;
             key-positions = <0 1>;
+            timeout-ms = <50>;
         };
 
         plus {
             bindings = <&kp PLUS>;
             key-positions = <19 18>;
+            timeout-ms = <50>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <21 20>;
+            timeout-ms = <50>;
         };
     };
 
